@@ -16,14 +16,14 @@ export default function AuthLayout({ children, title, subtitle }: Props) {
 
       <div className="w-full max-w-md relative z-10">
         {/* Logo */}
-        <div className="flex items-center gap-2 mb-8">
+        {/* <div className="flex items-center gap-2 mb-8">
           <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-violet-500 to-cyan-400 flex items-center justify-center">
             <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
               <path d="M8 2L14 5.5V10.5L8 14L2 10.5V5.5L8 2Z" fill="white" fillOpacity="0.9" />
             </svg>
           </div>
           <span className="text-sm font-semibold tracking-wide text-white/90">AuthSystem</span>
-        </div>
+        </div> */}
 
         {/* Card */}
         <div className="bg-white/[0.04] border border-white/[0.08] rounded-2xl p-8 backdrop-blur-sm">
